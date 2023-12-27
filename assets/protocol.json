@@ -1,0 +1,1111 @@
+{
+    "Items": [
+      {
+        "Key": "basic",
+        "Title": "Основное",
+        "Items": [
+          {
+            "Key": "complaints",
+            "Title": "Жалобы",
+            "Properties": [
+              "notes"
+            ]
+          },
+          {
+            "Key": "clinical_diagnosis",
+            "Title": "Клинический диагноз",
+            "Properties": [
+              "notes"
+            ]
+          },
+          {
+            "Key": "recommendation",
+            "Title": "Рекомендации",
+            "Properties": [
+              "notes"
+            ]
+          },
+          {
+            "Key": "comment",
+            "Title": "Комментарий",
+            "Properties": [
+              "notes"
+            ]
+          }
+        ]
+      },
+      {
+        "Key": "colp",
+        "Title": "Обзорная кольпоскопия",
+        "Items": [
+          {
+            "Key": "colp_0",
+            "Title": "Шейка матки",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_0_0",
+                "Title": "визуализируется"
+              },
+              {
+                "Key": "colp_0_1",
+                "Title": "не визуализируется"
+              }
+            ]
+          },
+          {
+            "Key": "colp_1",
+            "Title": "Форма",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_1_0",
+                "Title": "коническая"
+              },
+              {
+                "Key": "colp_1_1",
+                "Title": "цилиндрическая"
+              }
+            ]
+          },
+          {
+            "Key": "colp_2",
+            "Title": "Размер",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_2_0",
+                "Title": "нормальная"
+              },
+              {
+                "Key": "colp_2_1",
+                "Title": "гипертрофирована"
+              },
+              {
+                "Key": "colp_2_2",
+                "Title": "гипотрофирована"
+              }
+            ]
+          },
+          {
+            "Key": "colp_3",
+            "Title": "Наружный зев",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_3_0",
+                "Title": "точечный"
+              },
+              {
+                "Key": "colp_3_1",
+                "Title": "щелевидный"
+              }
+            ]
+          },
+          {
+            "Key": "colp_4",
+            "Title": "Цвет",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_4_0",
+                "Title": "бледно-розовая"
+              },
+              {
+                "Key": "colp_4_1",
+                "Title": "цианотичная"
+              },
+              {
+                "Key": "colp_4_2",
+                "Title": "гиперемированная"
+              },
+              {
+                "Key": "colp_4_3",
+                "Title": "гиперемия вокруг наружного зева"
+              },
+              {
+                "Key": "colp_4_4",
+                "Title": "очаги гиперемии"
+              }
+            ]
+          },
+          {
+            "Key": "colp_5",
+            "Title": "Рубцовая деформация",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_5_0",
+                "Title": "отсутствует"
+              },
+              {
+                "Key": "colp_5_1",
+                "Title": "незначительная"
+              },
+              {
+                "Key": "colp_5_2",
+                "Title": "умеренная"
+              },
+              {
+                "Key": "colp_5_3",
+                "Title": "выраженная"
+              }
+            ]
+          },
+          {
+            "Key": "colp_6",
+            "Title": "Экзофитные и другие образования",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_6_0",
+                "Title": "выявлены"
+              },
+              {
+                "Key": "colp_6_1",
+                "Title": "не выявлены"
+              }
+            ]
+          },
+          {
+            "Key": "colp_7",
+            "Title": "Характер выделений",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colp_7_0",
+                "Title": "слизистые"
+              },
+              {
+                "Key": "colp_7_1",
+                "Title": "светлые"
+              },
+              {
+                "Key": "colp_7_2",
+                "Title": "творожистые"
+              },
+              {
+                "Key": "colp_7_3",
+                "Title": "гноевидные"
+              },
+              {
+                "Key": "colp_7_4",
+                "Title": "кровянистые"
+              },
+              {
+                "Key": "colp_7_5",
+                "Title": "скудные"
+              },
+              {
+                "Key": "colp_7_6",
+                "Title": "умеренные"
+              },
+              {
+                "Key": "colp_7_7",
+                "Title": "обильные"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Key": "colpext",
+        "Title": "Расширенная кольпоскопия",
+        "Items": [
+          {
+            "Key": "colpext_0",
+            "Title": "После обработки 3% раствором уксусной кислоты обнаружено:",
+            "Properties": [
+              "label"
+            ]
+          },
+          {
+            "Key": "colpext_1",
+            "Title": "Кольпоскопическая картина",
+            "Items": [
+              {
+                "Key": "colpext_1_0",
+                "Title": "адекватная",
+                "Properties": ["select"]
+              },
+              {
+                "Key": "colpext_1_1",
+                "Title": "неадекватная",
+                "Items": [
+                  {
+                    "Key": "colpext_1_1_0",
+                    "Title": "сильное воспаление",
+                    "Properties": ["select"]
+                  },
+                  {
+                    "Key": "colpext_1_1_1",
+                    "Title": "атрофия",
+                    "Properties": ["select"]
+                  },
+                  {
+                    "Key": "colpext_1_1_2",
+                    "Title": "шейка матки не визуализируется",
+                    "Properties": ["select"]
+                  },
+                  {
+                    "Key": "colpext_1_1_3",
+                    "Title": "Стык плоского и цилиндрического эпителия",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_1_1_3_0",
+                        "Title": "не визуализируется"
+                      },
+                      {
+                        "Key": "colpext_1_1_3_1",
+                        "Title": "визуализируется частично"
+                      },
+                      {
+                        "Key": "colpext_1_1_3_2",
+                        "Title": "визуализируется полностью"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpext_2",
+            "Title": "Шейка матки покрыта",
+            "Items": [
+              {
+                "Key": "colpext_2_0",
+                "Title": "оригинальным многослойным плоским эпителием",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_2_0_0",
+                    "Title": "зрелый"
+                  },
+                  {
+                    "Key": "colpext_2_0_1",
+                    "Title": "атрофия"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_2_1",
+                "Title": "метапластическим эпителием"
+              },
+              {
+                "Key": "colpext_2_2",
+                "Title": "цилиндрическим эпителием",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_2_2_0",
+                    "Title": "расположенный участками"
+                  },
+                  {
+                    "Key": "colpext_2_2_1",
+                    "Title": "вокруг наружного зева"
+                  },
+                  {
+                    "Key": "colpext_2_2_2",
+                    "Title": "занимает I зоны эктоцервикса"
+                  },
+                  {
+                    "Key": "colpext_2_2_3",
+                    "Title": "занимает II зоны эктоцервикса"
+                  },
+                  {
+                    "Key": "colpext_2_2_4",
+                    "Title": "занимает III зоны эктоцервикса"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpext_3",
+            "Title": "Зона трансформации",
+            "Items": [
+              {
+                "Key": "colpext_3_0",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_3_0_0",
+                    "Title": "нормальная"
+                  },
+                  {
+                    "Key": "colpext_3_0_1",
+                    "Title": "атипическая"
+                  },
+                  {
+                    "Key": "colpext_3_0_2",
+                    "Title": "незавершенная (тип 1)"
+                  },
+                  {
+                    "Key": "colpext_3_0_3",
+                    "Title": "завершенная (тип 2)"
+                  },
+                  {
+                    "Key": "colpext_3_0_4",
+                    "Title": "завершенная (тип 3)"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_1",
+                "Title": "Островки цилиндрического эпителия",
+                "Items": [
+                  {
+                    "Key": "colpext_3_1_0",
+                    "Properties": ["select"],
+                    "Title": "не определяется"
+                  },
+                  {
+                    "Key": "colpext_3_1_1",
+                    "Title": "определяются",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_3_1_1_0",
+                        "Title": "единичные"
+                      },
+                      {
+                        "Key": "colpext_3_1_1_1",
+                        "Title": "множественные"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_2",
+                "Title": "Открытые протоки желез",
+                "Items": [
+                  {
+                    "Key": "colpext_3_2_0",
+                    "Items": [
+                      {
+                        "Key": "colpext_3_2_0_0",
+                        "Properties": ["select"],
+                        "Title": "не определяются"
+                      },
+                      {
+                        "Key": "colpext_3_2_0_1",
+                        "Title": "определяются",
+                        "Items": [
+                          {
+                            "Key": "colpext_3_2_0_1_0",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_2_0_1_0_0",
+                                "Title": "единичные"
+                              },
+                              {
+                                "Key": "colpext_3_2_0_1_0_1",
+                                "Title": "множественные"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_2_0_1_1",
+                            "Title": "Ободок желез",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_2_0_1_1_0",
+                                "Title": "обычный"
+                              },
+                              {
+                                "Key": "colpext_3_2_0_1_1_1",
+                                "Title": "утолщен"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_3",
+                "Title": "Кистозно-расширенные железы",
+                "Items": [
+                  {
+                    "Key": "colpext_3_3_0",
+                    "Properties": ["select"],
+                    "Title": "не определяется"
+                  },
+                  {
+                    "Key": "colpext_3_3_1",
+                    "Title": "определяются",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_3_3_1_0",
+                        "Title": "единичные"
+                      },
+                      {
+                        "Key": "colpext_3_3_1_1",
+                        "Title": "множественные"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_4",
+                "Title": "Ацето-белый эпителий",
+                "Items": [
+                  {
+                    "Key": "colpext_3_4_0",
+                    "Items": [
+                      {
+                        "Key": "colpext_3_4_0_0",
+                        "Properties": ["select"],
+                        "Title": "не определяется"
+                      },
+                      {
+                        "Key": "colpext_3_4_0_1",
+                        "Title": "определяется",
+                        "Items": [
+                          {
+                            "Key": "colpext_3_4_0_1_0",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_4_0_1_0_0",
+                                "Title": "в ЗТ"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_0_1",
+                                "Title": "вне ЗТ"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_4_0_1_1",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_4_0_1_1_0",
+                                "Title": "нежный"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_1_1",
+                                "Title": "грубый"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_1_2",
+                                "Title": "плоский"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_1_3",
+                                "Title": "микропапиллярный"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_4_0_1_2",
+                            "Title": "Границы",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_4_0_1_2_0",
+                                "Title": "четкие"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_2_1",
+                                "Title": "нечеткие"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_4_0_1_3",
+                            "Title": "Проявляется",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_4_0_1_3_0",
+                                "Title": "медленно"
+                              },
+                              {
+                                "Key": "colpext_3_4_0_1_3_1",
+                                "Title": "быстро"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_5",
+                "Title": "Лейкоплакия",
+                "Items": [
+                  {
+                    "Key": "colpext_3_5_0",
+                    "Properties": ["select"],
+                    "Title": "не определяется"
+                  },
+                  {
+                    "Key": "colpext_3_5_1",
+                    "Title": "определяется",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_3_5_1_0",
+                        "Title": "в ЗТ"
+                      },
+                      {
+                        "Key": "colpext_3_5_1_1",
+                        "Title": "вне ЗТ"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_6",
+                "Title": "Мозаика",
+                "Items": [
+                  {
+                    "Key": "colpext_3_6_0",
+                    "Items": [
+                      {
+                        "Key": "colpext_3_6_0_0",
+                        "Properties": ["select"],
+                        "Title": "не определяется"
+                      },
+                      {
+                        "Key": "colpext_3_6_0_1",
+                        "Title": "определяется",
+                        "Items": [
+                          {
+                            "Key": "colpext_3_6_0_1_0",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_6_0_1_0_0",
+                                "Title": "в ЗТ"
+                              },
+                              {
+                                "Key": "colpext_3_6_0_1_0_1",
+                                "Title": "вне ЗТ"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_6_0_1_1",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_6_0_1_1_0",
+                                "Title": "нежная"
+                              },
+                              {
+                                "Key": "colpext_3_6_0_1_1_1",
+                                "Title": "грубая"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_6_0_1_2",
+                            "Title": "Проявляется",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_6_0_1_2_0",
+                                "Title": "медленно"
+                              },
+                              {
+                                "Key": "colpext_3_6_0_1_2_1",
+                                "Title": "быстро"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_3_7",
+                "Title": "Пунктация",
+                "Items": [
+                  {
+                    "Key": "colpext_3_7_0",
+                    "Items": [
+                      {
+                        "Key": "colpext_3_7_0_0",
+                        "Properties": ["select"],
+                        "Title": "не определяется"
+                      },
+                      {
+                        "Key": "colpext_3_7_0_1",
+                        "Title": "определяется",
+                        "Items": [
+                          {
+                            "Key": "colpext_3_7_0_1_0",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_7_0_1_0_0",
+                                "Title": "в ЗТ"
+                              },
+                              {
+                                "Key": "colpext_3_7_0_1_0_1",
+                                "Title": "вне ЗТ"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_7_0_1_1",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_7_0_1_1_0",
+                                "Title": "Нежная"
+                              },
+                              {
+                                "Key": "colpext_3_7_0_1_1_1",
+                                "Title": "грубая"
+                              }
+                            ]
+                          },
+                          {
+                            "Key": "colpext_3_7_0_1_2",
+                            "Title": "Проявляется",
+                            "Properties": ["multiselectgroup"],
+                            "Items": [
+                              {
+                                "Key": "colpext_3_7_0_1_2_0",
+                                "Title": "медленно"
+                              },
+                              {
+                                "Key": "colpext_3_7_0_1_2_1",
+                                "Title": "быстро"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpext_4",
+            "Title": "Сосуды",
+            "Items": [
+              {
+                "Key": "colpext_4_0",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_4_0_0",
+                    "Title": "без особенностей"
+                  },
+                  {
+                    "Key": "colpext_4_0_1",
+                    "Title": "древовидно-ветвящиеся"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_4_1",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_4_1_0",
+                    "Title": "Выраженная гипертрофия"
+                  },
+                  {
+                    "Key": "colpext_4_1_1",
+                    "Title": "не сокращаются под действием уксусной кислоты"
+                  },
+                  {
+                    "Key": "colpext_4_1_2",
+                    "Title": "ломкие"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_4_2",
+                "Title": "Атипические сосуды",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_4_2_0",
+                    "Title": "шпильки"
+                  },
+                  {
+                    "Key": "colpext_4_2_1",
+                    "Title": "штопорообразные"
+                  },
+                  {
+                    "Key": "colpext_4_2_2",
+                    "Title": "петли"
+                  },
+                  {
+                    "Key": "colpext_4_2_3",
+                    "Title": "клубочки"
+                  },
+                  {
+                    "Key": "colpext_4_2_4",
+                    "Title": "короткие"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_4_3",
+                "Title": "Децидуоз",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_4_3_0",
+                    "Title": "не определяется"
+                  },
+                  {
+                    "Key": "colpext_4_3_1",
+                    "Title": "определяется"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_4_4",
+                "Title": "Истинная эрозия",
+                "Items": [
+                  {
+                    "Key": "colpext_4_4_0",
+                    "Properties": ["select"],
+                    "Title": "не определяется"
+                  },
+                  {
+                    "Key": "colpext_4_4_1",
+                    "Title": "определяется",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_4_4_1_0",
+                        "Title": "с некрозом"
+                      },
+                      {
+                        "Key": "colpext_4_4_1_1",
+                        "Title": "травматическая"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpext_5",
+            "Title": "Разные результаты",
+            "Items": [
+              {
+                "Key": "colpext_5_0",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpext_5_0_0",
+                    "Title": "врожденная зона трансформации"
+                  },
+                  {
+                    "Key": "colpext_5_0_1",
+                    "Title": "экзофитные кондиломы"
+                  },
+                  {
+                    "Key": "colpext_5_0_2",
+                    "Title": "воспаление"
+                  },
+                  {
+                    "Key": "colpext_5_0_3",
+                    "Title": "полипы"
+                  },
+                  {
+                    "Key": "colpext_5_0_4",
+                    "Title": "эндометриоз"
+                  },
+                  {
+                    "Key": "colpext_5_0_5",
+                    "Title": "стеноз"
+                  },
+                  {
+                    "Key": "colpext_5_0_6",
+                    "Title": "последствия лечения"
+                  },
+                  {
+                    "Key": "colpext_5_0_7",
+                    "Title": "аномалии"
+                  }
+                ]
+              },
+              {
+                "Key": "colpext_5_1",
+                "Title": "После обработки раствором Люголя",
+                "Items": [
+                  {
+                    "Key": "colpext_5_1_0",
+                    "Title": "Окрашивание",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_5_1_0_0",
+                        "Title": "равномерное"
+                      },
+                      {
+                        "Key": "colpext_5_1_0_1",
+                        "Title": "неравномерное"
+                      },
+                      {
+                        "Key": "colpext_5_1_0_2",
+                        "Title": "интенсивное"
+                      },
+                      {
+                        "Key": "colpext_5_1_0_3",
+                        "Title": "слабое"
+                      }
+                    ]
+                  },
+                  {
+                    "Key": "colpext_5_1_1",
+                    "Title": "Йод-негативная зона",
+                    "Properties": ["multiselectgroup"],
+                    "Items": [
+                      {
+                        "Key": "colpext_5_1_1_0",
+                        "Title": "определяется"
+                      },
+                      {
+                        "Key": "colpext_5_1_1_1",
+                        "Title": "не определяется"
+                      },
+                      {
+                        "Key": "colpext_5_1_1_2",
+                        "Title": "возвышающаяся над МПЭ"
+                      },
+                      {
+                        "Key": "colpext_5_1_1_3",
+                        "Title": "не возвышающаяся"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Key": "colpconc",
+        "Title": "Кольпоскопическое заключение",
+        "Items": [
+          {
+            "Key": "colpconc_0",
+            "Title": "Общая оценка",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colpconc_0_0",
+                "Title": "адекватная"
+              },
+              {
+                "Key": "colpconc_0_1",
+                "Title": "неадекватная"
+              }
+            ]
+          },
+          {
+            "Key": "colpconc_1",
+            "Title": "Нормальные кольпоскопические находки",
+            "Items": [
+              {
+                "Key": "colpconc_1_0",
+                "Properties": ["select"],
+                "Title": "многослойный плоский эпителий зрелый"
+              },
+              {
+                "Key": "colpconc_1_1",
+                "Properties": ["select"],
+                "Title": "атрофия"
+              },
+              {
+                "Key": "colpconc_1_2",
+                "Properties": ["select"],
+                "Title": "цилиндрический эпителий-эктопия"
+              },
+              {
+                "Key": "colpconc_1_3",
+                "Title": "метапластический эпителий",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpconc_1_3_0",
+                    "Title": "КРЖ"
+                  },
+                  {
+                    "Key": "colpconc_1_3_1",
+                    "Title": "ОПЖ"
+                  },
+                  {
+                    "Key": "colpconc_1_3_2",
+                    "Title": "децидуоз"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpconc_2",
+            "Title": "Ненормальные кольпоскопические находки",
+            "Items": [
+              {
+                "Key": "colpconc_2_0",
+                "Title": "L-SIL",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpconc_2_0_0",
+                    "Title": "нежный ацетобелый эпителий с нечеткими контурами"
+                  },
+                  {
+                    "Key": "colpconc_2_0_1",
+                    "Title": "нежная мозаика"
+                  },
+                  {
+                    "Key": "colpconc_2_0_2",
+                    "Title": "нежная пунктация"
+                  }
+                ]
+              },
+              {
+                "Key": "colpconc_2_1",
+                "Title": "H-SIL",
+                "Properties": ["multiselectgroup"],
+                "Items": [
+                  {
+                    "Key": "colpconc_2_1_0",
+                    "Title": "грубый ацетобелый эпителий с четкими контурами"
+                  },
+                  {
+                    "Key": "colpconc_2_1_1",
+                    "Title": "грубая пунктация"
+                  },
+                  {
+                    "Key": "colpconc_2_1_2",
+                    "Title": "грубая мозаика"
+                  },
+                  {
+                    "Key": "colpconc_2_1_3",
+                    "Title": "внутренние границы"
+                  },
+                  {
+                    "Key": "colpconc_2_1_4",
+                    "Title": "бугристость"
+                  },
+                  {
+                    "Key": "colpconc_2_1_5",
+                    "Title": "плотный ободок ОПЖ"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Key": "colpconc_3",
+            "Title": "Неспецефические находки",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colpconc_3_0",
+                "Title": "лейкоплакия"
+              },
+              {
+                "Key": "colpconc_3_1",
+                "Title": "истинная эрозия"
+              },
+              {
+                "Key": "colpconc_3_2",
+                "Title": "йод-негативная зона"
+              }
+            ]
+          },
+          {
+            "Key": "colpconc_4",
+            "Title": "Подозрение на инвазивный рак",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colpconc_4_0",
+                "Title": "атипические сосуды"
+              },
+              {
+                "Key": "colpconc_4_1",
+                "Title": "ломкие сосуды"
+              },
+              {
+                "Key": "colpconc_4_2",
+                "Title": "некроз"
+              },
+              {
+                "Key": "colpconc_4_3",
+                "Title": "изъязвление"
+              },
+              {
+                "Key": "colpconc_4_4",
+                "Title": "экзофитный рост"
+              }
+            ]
+          },
+          {
+            "Key": "colpconc_5",
+            "Title": "Другое",
+            "Properties": ["multiselectgroup"],
+            "Items": [
+              {
+                "Key": "colpconc_5_0",
+                "Title": "врожденная зона трансформации"
+              },
+              {
+                "Key": "colpconc_5_1",
+                "Title": "кондилома"
+              },
+              {
+                "Key": "colpconc_5_2",
+                "Title": "последствия лечения"
+              },
+              {
+                "Key": "colpconc_5_3",
+                "Title": "стеноз"
+              },
+              {
+                "Key": "colpconc_5_4",
+                "Title": "аномалии"
+              },
+              {
+                "Key": "colpconc_5_5",
+                "Title": "воспаление"
+              },
+              {
+                "Key": "colpconc_5_6",
+                "Title": "полип"
+              },
+              {
+                "Key": "colpconc_5_7",
+                "Title": "эндометриоз"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
