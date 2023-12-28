@@ -23,6 +23,7 @@ class FormItemData with _$FormItemData {
     // int? minHeight,
     // int? maxHeight,
   }) = _FormItemData;
+  // }) = _FormItemData;
 
   factory FormItemData.fromJson(Map<String, dynamic> json) =>
       _$FormItemDataFromJson(json);

@@ -9,27 +9,34 @@ part of 'form_item_data.dart';
 _$FormItemDataImpl _$$FormItemDataImplFromJson(Map<String, dynamic> json) =>
     _$FormItemDataImpl(
       key: json['key'] as String? ?? '',
-      title: json['title'] as String? ?? '',
-      items: (json['items'] as List<dynamic>?)
-              ?.map((e) => FormItemData.fromJson(e as Map<String, dynamic>))
-              .toList() ??
-          const [],
-      properties: (json['properties'] as List<dynamic>?)
-              ?.map((e) => e as String)
-              .toList() ??
-          const [],
       itemType: $enumDecodeNullable(_$FormItemTypeEnumMap, json['itemType']) ??
           FormItemType.inputLine,
+      title: json['title'] as String? ?? '',
+      items: (json['items'] as List<dynamic>?)
+          ?.map((e) => FormItemData.fromJson(e as Map<String, dynamic>))
+          .toList(),
+      properties: (json['properties'] as List<dynamic>?)
+          ?.map((e) => e as String)
+          .toList(),
     );
 
-Map<String, dynamic> _$$FormItemDataImplToJson(_$FormItemDataImpl instance) =>
-    <String, dynamic>{
-      'key': instance.key,
-      'title': instance.title,
-      'items': instance.items,
-      'properties': instance.properties,
-      'itemType': _$FormItemTypeEnumMap[instance.itemType]!,
-    };
+Map<String, dynamic> _$$FormItemDataImplToJson(_$FormItemDataImpl instance) {
+  final val = <String, dynamic>{
+    'key': instance.key,
+    'itemType': _$FormItemTypeEnumMap[instance.itemType]!,
+    'title': instance.title,
+  };
+
+  void writeNotNull(String key, dynamic value) {
+    if (value != null) {
+      val[key] = value;
+    }
+  }
+
+  writeNotNull('items', instance.items);
+  writeNotNull('properties', instance.properties);
+  return val;
+}
 
 const _$FormItemTypeEnumMap = {
   FormItemType.unknown: 'unknown',

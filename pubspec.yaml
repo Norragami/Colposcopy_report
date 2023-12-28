@@ -34,3 +34,6 @@ flutter:
 
   assets:
     - assets/Roboto-Black.ttf
+    - assets/images/bg1.jpg
+    - assets/logo_FE4867.png
+

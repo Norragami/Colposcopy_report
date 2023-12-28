@@ -21,23 +21,24 @@ FormItemData _$FormItemDataFromJson(Map<String, dynamic> json) {
 /// @nodoc
 mixin _$FormItemData {
   String get key => throw _privateConstructorUsedError;
-  String get title => throw _privateConstructorUsedError;
-  List<FormItemData> get items => throw _privateConstructorUsedError;
-  List<String> get properties => throw _privateConstructorUsedError;
   FormItemType get itemType => throw _privateConstructorUsedError;
+  String get title => throw _privateConstructorUsedError;
+  List<FormItemData>? get items => throw _privateConstructorUsedError;
+  List<String>? get properties => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
 }
 
 /// @nodoc
-@JsonSerializable()
+
+@JsonSerializable(includeIfNull: false)
 class _$FormItemDataImpl implements _FormItemData {
   const _$FormItemDataImpl(
       {this.key = '',
+      this.itemType = FormItemType.inputLine,
       this.title = '',
-      final List<FormItemData> items = const [],
-      final List<String> properties = const [],
-      this.itemType = FormItemType.inputLine})
+      final List<FormItemData>? items,
+      final List<String>? properties})
       : _items = items,
         _properties = properties;
 
@@ -49,28 +50,29 @@ class _$FormItemDataImpl implements _FormItemData {
   final String key;
   @override
   @JsonKey()
-  final String title;
-  final List<FormItemData> _items;
+  final FormItemType itemType;
   @override
   @JsonKey()
-  List<FormItemData> get items {
+  final String title;
+  final List<FormItemData>? _items;
+  @override
+  List<FormItemData>? get items {
+    final value = _items;
+    if (value == null) return null;
     if (_items is EqualUnmodifiableListView) return _items;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_items);
+    return EqualUnmodifiableListView(value);
   }
 
-  final List<String> _properties;
+  final List<String>? _properties;
   @override
-  @JsonKey()
-  List<String> get properties {
+  List<String>? get properties {
+    final value = _properties;
+    if (value == null) return null;
     if (_properties is EqualUnmodifiableListView) return _properties;
     // ignore: implicit_dynamic_type
-    return EqualUnmodifiableListView(_properties);
+    return EqualUnmodifiableListView(value);
   }
-
-  @override
-  @JsonKey()
-  final FormItemType itemType;
 
   @override
   Map<String, dynamic> toJson() {
@@ -83,10 +85,10 @@ class _$FormItemDataImpl implements _FormItemData {
 abstract class _FormItemData implements FormItemData {
   const factory _FormItemData(
       {final String key,
+      final FormItemType itemType,
       final String title,
-      final List<FormItemData> items,
-      final List<String> properties,
-      final FormItemType itemType}) = _$FormItemDataImpl;
+      final List<FormItemData>? items,
+      final List<String>? properties}) = _$FormItemDataImpl;
 
   factory _FormItemData.fromJson(Map<String, dynamic> json) =
       _$FormItemDataImpl.fromJson;
@@ -94,11 +96,11 @@ abstract class _FormItemData implements FormItemData {
   @override
   String get key;
   @override
+  FormItemType get itemType;
+  @override
   String get title;
   @override
-  List<FormItemData> get items;
+  List<FormItemData>? get items;
   @override
-  List<String> get properties;
-  @override
-  FormItemType get itemType;
+  List<String>? get properties;
 }
