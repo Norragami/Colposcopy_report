@@ -1,0 +1,4 @@
+class ReportItem {
+  String title;
+  
+}
